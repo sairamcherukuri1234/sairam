@@ -1,0 +1,4 @@
+str1='ABCDEFG'
+str2='wam'
+for l in str1:
+    print(l+str2)
