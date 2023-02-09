@@ -1,0 +1,6 @@
+l=[1234]
+x=l
+for i in range (len(x):
+    print("index", [i],x[i])
+
+
