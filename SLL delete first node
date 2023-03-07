@@ -5,14 +5,7 @@ class Node:
 class LL:
     def __init__(self):
         self.head=None
-    def insert_position(self,pos,data):
-        np=Node(data) 
-        temp=self.head
-        for i in range (pos-1):
-            temp=temp.next
-        #np.data=data
-        np.next=temp.next
-        temp.next=np
+    
     def delete(self):
         temp=self.head
         self.head=temp.next
@@ -34,7 +27,6 @@ n3= Node(567)
 n2.next=n3
 n4=Node(789)
 n3.next=n4                       
-obj.insert_position(4,400)
 obj.display()
 print('')
 obj.delete()
